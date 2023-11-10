@@ -76,13 +76,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>SFML\x86\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SFML\x86\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>SFML\x86\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SFML\x86\lib</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
       <Command>copy /y $(ProjectDir)SFML\x86\bin  $(OutDir)</Command>
@@ -96,14 +96,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>SFML\x86\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SFML\x86\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>SFML\x86\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SFML\x86\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
@@ -116,12 +116,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>SFML\x64\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SFML\x64\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>SFML\x64\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SFML\x64\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
@@ -136,14 +136,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>SFML\x64\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SFML\x64\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>SFML\x64\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SFML\x64\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
