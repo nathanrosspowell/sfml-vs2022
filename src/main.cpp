@@ -1,10 +1,12 @@
+// Read more at https://www.sfml-dev.org/tutorials/2.6/start-vc.php
+
 #include <SFML/Graphics.hpp>
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
+    sf::RenderWindow window(sf::VideoMode(1024, 576), "SFML 2.5.1 VS2022");
+    sf::CircleShape shape(288.0f);
+    shape.setFillColor(sf::Color::Magenta);
 
     while (window.isOpen())
     {
