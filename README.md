@@ -1,6 +1,6 @@
 # sfml-vs2022
 
-Visual Studio 2022 project with SFML setup for all x86, x64, dynamic link and static link combinations
+[Visual Studio 2022][vs] project with SFML setup for all x86, x64, dynamic link and static link combinations
 
 The setup is based on the instructions from the [SFTML Tutorial][tut] for Visual Studio.
 The [`.gitignore`][gitignore] is based on the default Visual Studio suggestions from GitHub.
@@ -34,6 +34,7 @@ If you don't ever plan to support a linking or platform type, toy can remove it 
 The UI options to rename configurations from inside of Visual Studio does not cover everything.
 It's recommended to use a text editor and find and replace, for example, `Debug-Static` with the name of your choice.
 
+[vs]: https://visualstudio.microsoft.com/downloads/ "Download Visual Studio"
 [tut]: https://www.sfml-dev.org/tutorials/2.6/start-vc.php  "SFML with Visual Studio"
 [gitignore]: https://github.com/github/gitignore/blob/main/VisualStudio.gitignore ".gitnignore for Visual Studio"
 [sfmlversion]: https://github.com/SFML/SFML/releases/tag/2.6.1 "SFML 2.6.1"
