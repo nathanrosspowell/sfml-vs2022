@@ -1,5 +1,10 @@
 # sfml-vs2022
 
+[![MSBuild](https://github.com/nathanrosspowell/sfml-vs2022/actions/workflows/msbuild.yml/badge.svg)](https://github.com/nathanrosspowell/sfml-vs2022/actions/workflows/msbuild.yml)
+
+![image](https://github.com/nathanrosspowell/sfml-vs2022/assets/123867/66b1d4c2-ebcb-493b-837a-00ca79b55377)
+
+
 [Visual Studio 2022][vs] project with SFML setup for all x86, x64, dynamic link and static link combinations
 
 The setup is based on the instructions from the [SFTML Tutorial][tut] for Visual Studio.
